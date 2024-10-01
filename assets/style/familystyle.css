@@ -1,0 +1,11 @@
+#links {
+  text-align: center;
+  font-size: 1.1vw;
+}
+@media screen and (width <= 845px) {
+  #links {
+    font-size: 4vw;
+  }
+}
+
+/*# sourceMappingURL=familystyle.css.map */
