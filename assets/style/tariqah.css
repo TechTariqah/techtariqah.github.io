@@ -3,10 +3,30 @@
   text-align: center;
   font-size: 1.1vw;
 }
-@media screen and (width <= 845px) {
+@media screen and (max-width: 845px) {
   #links {
-    font-size: 4vw;
+    display: flex;
+    flex-flow: column nowrap;
   }
+}
+#links a {
+  margin: 1%;
+  text-decoration: none;
+  color: black;
+  white-space: nowrap;
+}
+#links a:hover {
+  text-decoration: underline;
+}
+@media screen and (max-width: 845px) {
+  #links a {
+    font-size: 5vw;
+  }
+}
+
+.event {
+  padding: 3% 0%;
+  border-top: 2px solid #424242;
 }
 
 /*# sourceMappingURL=tariqah.css.map */
